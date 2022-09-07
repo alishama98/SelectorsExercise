@@ -1,0 +1,114 @@
+/* 1 */
+body {
+    background-color: #CED4D8;
+}
+
+/* 2 */
+h1 {
+    color: #AC6AC7;
+}
+
+/* 3 */
+h2 {
+    color: rbg(255, 165, 0);
+}
+
+/* 4 */ 
+li {
+    color: blue;
+}
+
+/* 5 */ 
+p {
+    background-color: gold;
+}
+
+/* 6 */
+input[type="text"], [type="email"] {
+     border: 5px dotted pink;
+}
+
+/* 7 */
+.first {
+    background-color: #fff;
+}
+
+/* 8 */
+#important {
+    /* border: 3px dashed #0000ff; */
+    /* OR */
+    border: 3px dashed #00f;
+}
+
+/* 9 */
+div > p {
+    font-size: 30px;
+}
+
+/* OR */
+/* The difference between the two, the first option ONLY 
+styles P elements that are children (no grandchildern or beyond) of a div. The second option styles all P elements that are nested within a div (including grandchildren and beyon) */
+/* div p {
+    font-size: 30px;
+} */
+
+/* 10 */
+input[type="email"] {
+    background-color: #808080 ;
+}
+
+/* 11 */
+div:nth-of-type(3) p {
+    background-color:hotpink;
+}
+
+/* 12 */
+/* div;nth-of-type(3) p:nth-of-type(2) {
+    border: 7px solid rgb(255, 255, 255,);
+} */
+
+/* OR */
+/* :nth-child(5) :nth-child(3) {
+    border: 7px solid rbg(255, 255, 255) ;
+}
+
+/* OR */
+div ~ :nth-of-type(odd) > p ~ p {
+    border: 7px solid rgb(255, 255, 255);
+}
+
+/* 13 */
+/* em {
+    color: seashell;
+    font: 25px;
+} */
+
+/* OR */
+/*div p em {
+    color: seashell;
+    font: 25px;
+} */ 
+
+/* OR */
+/*div p :nth-child(1) {
+    color: seashell;
+    font: 25px;
+} */
+
+/* OR */
+/*div:nth-of-type(3) em {
+    color: seashell;
+    font: 25px;
+} */
+
+/* OR */
+div em {
+    color: seashell;
+    font: 25px;
+}
+
+/* BOUNS */
+/* 1 */
+input:checked {
+    margin-left: 40px;
+}
